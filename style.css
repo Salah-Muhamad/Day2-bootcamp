@@ -1,0 +1,36 @@
+body {
+    background-color: #7B66FF;
+    height: 2000px;
+    font-family: segoe UI light;
+}
+.home {
+    background-color: rgb(95, 189, 255);
+    padding: 20px;
+    text-align: center;
+}
+.home .div1 {
+    background-color: rgb(138, 43, 226);
+    width: 30%;
+    display: inline-block;
+    border: 3px white solid;
+    padding: 5px;
+}
+.home .div1 img {
+    width: 100%;
+}
+.home .div1 .btn {
+    background-color: rgb(95, 189, 255);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+}
+.container {
+    height: 450px;
+    margin-top: 50px;
+    background-image: url(img/img-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

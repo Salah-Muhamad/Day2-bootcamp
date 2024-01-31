@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label>Enter Your Name</label>
+        <input type="text" value="name" readonly name="First-name">
+        <br><br>
+        <label>Enter Your Email</label>
+        <input type="email" placeholder="ex.email" name="email">
+        <br><br>
+        <label for="pass">Enter Your Password</label>
+        <input type="password" id="pass" name="Password">
+        <br><br>
+        <label>Enter Your Phone</label>
+        <input  placeholder="+20123424" disabled>
+        <hr>
+        <!-- Radio Button -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <hr>
+        <!-- Checkbox -->
+        <label for="html">HTML</label>
+        <input type="checkbox" name="Skill" id="html" value="HTML">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="Skill" id="css" value="CSS">
+        <label for="js">JS</label>
+        <input type="checkbox" name="Skill" id="js" value="JS">
+        <hr>
+        <!-- Select-->
+        <select name="select">
+            <optgroup label="Front-end">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+            </optgroup>
+            <optgroup label="Back-end">
+                <option value="php" selected>PHP</option>
+                <option value="c#">C#</option>
+                <option value="mySQL">mySQL</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <textarea cols="40" rows="10" name="text" placeholder="Enter Your Message"> </textarea>
+        <br><br>
+        <button>Send</button>
+    </form>
+    <br><br>
+    <a href="index2.html" target="_blank">Go To Page 2</a>
+</body>
+</html>
